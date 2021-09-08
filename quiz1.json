@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1, 
+        "title": "Какой из представленных вариантов является валидным по XHTML 1.1:",
+        "inputType": "radio",
+        "input": [
+            {"title": "<img src='foto.jpg' title='Изображение'>", "value": false},
+            {"title": "<img src='foto.jpg' alt='Изображение'>", "value": true},
+            {"title": "<img src='foto.jpg' title='Изображение' />", "value": false},
+            {"title": "<img src='foto.jpg' alt=Изображение' />", "value": false}
+        ]  
+    },
+    {
+        "id": 2, 
+        "title": "Как правильно задать ссылку на адрес электронной почты:",
+        "inputType": "radio",
+        "input": [
+            {"title": "<a href='myrusakov@gmail.com'>Написать</a>", "value": false},
+            {"title": "<a href='mailto:myrusakov@gmail.com'>Написать</a>", "value": true},
+            {"title": "<a href='mail:myrusakov@gmail.com'>Написать</a>", "value": false},
+            {"title": "<a href='email:myrusakov@gmail.com'>Написать</a>", "value": false}
+        ]  
+    },
+    {
+        "id": 3, 
+        "title": "Петру надо сделать нумерованный список, какой из тегов ему надо использовать:",
+        "inputType": "radio",
+        "input": [
+            {"title": "<tr>", "value": false},
+            {"title": "<ul>", "value": false},
+            {"title": "<ol>", "value": true},
+            {"title": "<list>", "value": false}
+        ]  
+    },
+    {
+        "id": 4, 
+        "title": "Какой из представленных ниже HTML-кодов НЕ является валидным XHTML 1.1:",
+        "inputType": "radio",
+        "input": [
+            {"title": "<p style='font-size: 1000%;'>Текст</p>", "value": false},
+            {"title": "<u>Подчёркнутый текст</u>", "value": true},
+            {"title": "<p>Текст</p>", "value": false},
+            {"title": "<i>Курсив</i>", "value": false}
+        ]  
+    },
+    {
+        "id": 5, 
+        "title": "Какой тег является дочерним для <!DOCTYPE>:",
+        "inputType": "radio",
+        "input": [
+            {"title": "Никакой.", "value": true},
+            {"title": "<html>", "value": false},
+            {"title": "<body>", "value": false},
+            {"title": "<head>", "value": false}
+        ]  
+    },
+    {
+        "id": 6, 
+        "title": "Николаю захотелось добавить несколько подряд идущих пробелов в тексте. Он добавил их внутри тега <p>. Однако, они вырезались. Какой тег надо использовать Николаю, чтобы пробелы не вырезались?",
+        "inputType": "radio",
+        "input": [
+            {"title": "<span>", "value": false},
+            {"title": "<code>", "value": false},
+            {"title": "<address>", "value": false},
+            {"title": "<pre>", "value": true}
+        ]  
+    },
+    {
+        "id": 7, 
+        "title": "Игорю нужно сделать ширину таблицы на всю страницу (либо родительского контейнера). Как ему нужно написать тег <table>?",
+        "inputType": "radio",
+        "input": [
+            {"title": "<table width='100'>", "value": false},
+            {"title": "<table width='100%'>", "value": true},
+            {"title": "<table width='auto'>", "value": false},
+            {"title": "<table>", "value": false}
+        ]  
+    },
+    {
+        "id": 8, 
+        "title": "На сайте внутри папки pages находится файл page.html. А внутри папки images находится файл foto.jpg. Причём папки images и pages лежат в корне сайта. Как правильно написать путь к foto.jpg из файла page.html:",
+        "inputType": "radio",
+        "input": [
+            {"title": "pages/images/foto.jpg", "value": false},
+            {"title": "../images/foto.jpg", "value": true},
+            {"title": "images/foto.jpg", "value": false},
+            {"title": "../images/pages/foto.jpg", "value": false}
+        ]  
+    },
+    {
+        "id": 9, 
+        "title": "Какая ошибка в следующем коде: <a href='page.html'><b><i>Страница 1</i></a>",
+        "inputType": "radio",
+        "input": [
+            {"title": "Не закрыт тег <b>.", "value": true},
+            {"title": "Не указан обязательный атрибут title у тега <a>.", "value": false},
+            {"title": "Внутри тега <a> не может быть тег <b> и/или тег <i>.", "value": false},
+            {"title": "Не указан обязательный атрибут alt у тега <a>.", "value": false}
+        ]  
+    },
+    {
+        "id": 10, 
+        "title": "Александру требуется написать химическую формулу тетрасульфида димышьяка (As2S4). Каким образом это можно сделать?",
+        "inputType": "radio",
+        "input": [
+            {"title": "As<sup>2</sup>S<sup>4</sup>", "value": true},
+            {"title": "As<pow>2</pow>S<pow>4</pow>", "value": false},
+            {"title": "As<sup>2S<sup>4", "value": false},
+            {"title": "As<sub>2</sub>S<sub>4</sub>", "value": false}
+        ]  
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1, 
+        "title": "Есть такой код: ul li:first-letter {font-size: 200%;}. Что он делает?",
+        "inputType": "radio",
+        "input": [
+            {"title": "Делает первую букву у первого элемента в ненумерованном списке размером 200%.", "value": false},
+            {"title": "Ничего не делает, так как псевдоэлемента first-letter вообще не существует.", "value": false},
+            {"title": "Делает первую букву у первого элемента в нумерованном списке размером 200%.", "value": false},
+            {"title": "Делает первую букву у каждого элемента ненумерованного списка размером 200%.", "value": true}
+        ]  
+    },
+    {
+        "id": 2, 
+        "title": "Какой CSS-код написан правильно?",
+        "inputType": "radio",
+        "input": [
+            {"title": "<div> {border: 1px solid #hhh;}", "value": false},
+            {"title": "<div> {border: 1px solid #ccc;}", "value": false},
+            {"title": "div {border: 1px solid #ccc;}", "value": true},
+            {"title": "div {border: 1px solid #hhh;}", "value": false}
+        ]  
+    },
+    {
+        "id": 3, 
+        "title": "Александр задал шрифт следующим образом: font-family: Arial, Times New Roman, Helvetica, sans-serif;. Что он сделал не так?",
+        "inputType": "radio",
+        "input": [
+            {"title": "Забыл поставить кавычки у Times New Roman.", "value": true},
+            {"title": "Шрифта Helvetica не существует.", "value": false},
+            {"title": "Нельзя указывать больше 3-х различных шрифтов.", "value": false},
+            {"title": "Вместо свойства font-family нужно использовать свойство font.", "value": false}
+        ]  
+    },
+    {
+        "id": 4, 
+        "title": "Есть такой CSS-код во внешнем файле: p {color: blue;}. На странице написан такой HTML-код: <p style='color: red;'>текст</p>. Какого цвета будет 'текст'?",
+        "inputType": "radio",
+        "input": [
+            {"title": "В браузере IE8 синего, а в других красного.", "value": false},
+            {"title": "Красного.", "value": true},
+            {"title": "Синего.", "value": false},
+            {"title": "Чёрного.", "value": false}
+        ]  
+    },
+    {
+        "id": 5, 
+        "title": "Настя обнаружила, что цвет ссылок меняется, когда они являются посещёнными. Какой CSS-код необходимо задать, чтобы цвет посещённых и непосещённых ссылок был одним и тем же:",
+        "inputType": "radio",
+        "input": [
+            {"title": "a:link, a:active {color: yellow;}", "value": false},
+            {"title": "a:link {color: yellow;}", "value": true},
+            {"title": "a:active, a:visited {color: yellow;}", "value": false},
+            {"title": "a:link, a:visited {color: yellow;}", "value": false}
+        ]  
+    },
+    {
+        "id": 6, 
+        "title": "Какое свойство используется для задания полей у блока?",
+        "inputType": "radio",
+        "input": [
+            {"title": "position", "value": true},
+            {"title": "direction", "value": false},
+            {"title": "margin", "value": false},
+            {"title": "padding", "value": false}
+        ]  
+    },
+    {
+        "id": 7, 
+        "title": "Виктору надо, чтобы при наведении курсора мыши на ссылку, она меняла цвет. Какой псевдоэлемент нужно использовать Виктору?",
+        "inputType": "radio",
+        "input": [
+            {"title": "onmouseover", "value": false},
+            {"title": "active", "value": false},
+            {"title": "link", "value": false},
+            {"title": "hover", "value": true}
+        ]  
+    },
+    {
+        "id": 8, 
+        "title": "Какое принципиальное отличие селектора ID от селектора CLASS?",
+        "inputType": "radio",
+        "input": [
+            {"title": "Никакого отличия между ними нет.", "value": false},
+            {"title": "ID должен быть уникальным на странице, а одинаковый CLASS может быть у нескольких элементов.", "value": true},
+            {"title": "Разница только в наборе свойств, который может быть использован для этих селекторов. Например, для ID нельзя задавать свойство border, а для CLASS можно.", "value": false},
+            {"title": "CLASS должен быть уникальным на странице, а одинаковый ID может быть у нескольких элементов.", "value": false}
+        ]  
+    },
+    {
+        "id": 9, 
+        "title": "Как изменить цвет фона для всех элементов h1 на странице?",
+        "inputType": "radio",
+        "input": [
+            {"title": "h1.all {background-color: #ccc;}", "value": false},
+            {"title": "h1:all {background-color: #ccc;}", "value": false},
+            {"title": "h1[all] {background-color: #ccc;}", "value": false},
+            {"title": "h1 {background-color: #ccc;}", "value": true}
+        ]  
+    },
+    {
+        "id": 10, 
+        "title": "Как правильно вставляются комментарии в CSS-код?",
+        "inputType": "radio",
+        "input": [
+            {"title": "/* Мой комментарий */", "value": true},
+            {"title": "# Мой комментарий", "value": false},
+            {"title": "// Мой комментарий", "value": false},
+            {"title": "# Мой комментарий #", "value": false}
+        ]  
+    }
+]

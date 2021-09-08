@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1, 
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error voluptatem nostrum mollitia animi? Laboriosam officiis enim magni",
+        "inputType": "radio",
+        "input": [
+            {"title": "daun1", "value": false},
+            {"title": "daun2", "value": true},
+            {"title": "daun3", "value": false}
+        ]  
+    },
+    {
+        "id": 2, 
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error voluptatem nostrum mollitia animi? Laboriosam officiis enim magni",
+        "inputType": "checkbox",
+        "input": [
+            {"title": "dodik1", "value": false},
+            {"title": "dodik2", "value": true},
+            {"title": "dodik3", "value": true},
+            {"title": "dodik4", "value": false}
+        ]
+    },
+    {
+        "id": 3, 
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error voluptatem nostrum mollitia animi? Laboriosam officiis enim magni",
+        "inputType": "radio",
+        "input": [
+            {"title": "xyu1", "value": false},
+            {"title": "xyu2", "value": false},
+            {"title": "xyu3", "value": true},
+            {"title": "xyu4", "value": false}
+        ]  
+    }
+]
